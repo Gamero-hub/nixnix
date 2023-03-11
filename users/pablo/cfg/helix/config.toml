@@ -1,0 +1,19 @@
+theme = "catppuccin_mocha"
+
+[editor]
+
+scrolloff = 1 
+mouse = true
+middle-click-paste = true 
+cursorline = true
+scroll-lines = 2 
+auto-completion = true 
+
+[editor.statusline]
+
+left = ["mode","file-name"]
+right = ["diagnostics", "selections", "position", "file-encoding"]
+separator = "|"
+
+
+
